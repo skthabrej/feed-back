@@ -1,0 +1,92 @@
+.bg-container {
+    background-image: linear-gradient(to right, #bdf7ff, #ffc0bb);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .card-container {
+    background-image: linear-gradient(to right,  #ffc0bb,#bdf7ff);
+    border-radius: 15px;
+    width: 50%;
+    height: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+.heading {
+    color: #0f172a;
+    font-family: 'Roboto';
+    text-align: center;
+    text-shadow: 2px 2px 4px #ffa6a6;
+    font-size: 30px;
+}
+
+  .heading-1 {
+    color: #0f172a;
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .img-style {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .emoji-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  
+  .inner-emoji-container {
+    margin: 15px;
+  }
+  
+  .emoji-name {
+    text-align: center;
+  }
+  
+  .btn-style {
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    border-width: 0;
+  }
+  
+  .card-container-love {
+    background-image: linear-gradient(to top right, rgb(255, 219, 219), rgb(199, 255, 250));
+    border-radius: 15px;
+    width: 50%;
+    height: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .love-img-style {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }
+  
+  .thank-you {
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: bold;
+    color: #0f172a;
+  }
+  
+  .love-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .customer-feedback {
+    color: #0f172a;
+    font-family: 'Roboto';
+    text-align: center;
+  }

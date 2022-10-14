@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Feedback from './components/Feedback'
+import './App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export const feedbackData = {
+  emojis: [
+    {
+      id: 0,
+      name: 'Sad',
+      imageUrl: 'https://assets.ccbp.in/frontend/react-js/sad-emoji-img.png',
+    },
+    {
+      id: 1,
+      name: 'None',
+      imageUrl: 'https://assets.ccbp.in/frontend/react-js/none-emoji-img.png',
+    },
+    {
+      id: 2,
+      name: 'Happy',
+      imageUrl: 'https://assets.ccbp.in/frontend/react-js/happy-emoji-img.png',
+    },
+  ],
+  loveEmojiUrl: 'https://assets.ccbp.in/frontend/react-js/love-emoji-img.png',
 }
 
-export default App;
+const App = () => <Feedback feedbackData={feedbackData}/>
+
+export default App
