@@ -20,6 +20,7 @@ export const feedbackData = {
     },
   ],
   loveEmojiUrl: 'https://assets.ccbp.in/frontend/react-js/love-emoji-img.png',
+  
 }
 
 const App = () => <Feedback feedbackData={feedbackData}/>
