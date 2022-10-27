@@ -25,11 +25,11 @@ class Feedback extends Component {
             </div>
             <div className="inner-emoji-container">
               <img className="img-style" src={emojis[1].imageUrl} alt="none-emoji" onClick={this.onChangeState}/>
-              <p>{emojis[1].name}</p>
+              <p className="emoji-name">{emojis[1].name}</p>
             </div>
             <div className="inner-emoji-container"> 
             <img className="img-style" src={emojis[2].imageUrl} alt="happy-emoji" onClick={this.onChangeState}/>
-              <p>{emojis[2].name}</p>
+              <p className="emoji-name">{emojis[2].name}</p>
             </div>
           </div>
         </div>
